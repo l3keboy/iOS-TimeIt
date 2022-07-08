@@ -72,9 +72,9 @@ struct TimerView: View {
                             .padding(.vertical, 15)
                     }
                 }
-                .padding(.top, 256)
-                .padding(.bottom, 106)
-                
+                .padding(.top, 144)
+                .padding(.bottom, 114)
+
                 HStack {
                     Button("Reset") {
                         timerClass.resetTimer()
@@ -121,7 +121,8 @@ struct TimerView: View {
                     }
                 }
                 .padding(.horizontal, 50)
-                .padding(.bottom, 518)
+                
+                Spacer()
             }.foregroundColor(.primary).ignoresSafeArea()
         }
         .onChange(of: phase) { newPhase in
