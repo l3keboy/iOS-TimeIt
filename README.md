@@ -22,7 +22,7 @@ The app is currently not available in the app store. If you want to use this app
 3. Connect your iPhone to the MacBook;
 4. Build the project to your (connected) iPhone by pressing the **play (▷)** button (see the image below!);
 
-![ClockView](/assets/BuildingTheApp.png)
+![BuildingTheApp](/assets/BuildingTheApp.png)
 
 <br>
 
